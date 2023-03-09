@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.div1{
+    background-color: rgb(0, 102, 255);
+    width: 50%;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    font-weight: normal;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    border-bottom: solid rgb(255, 255, 255, 50%);
+}
+button{
+    margin-top: 10%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 15px;
+}
+.div2{
+    padding: 15%;
+}
+.div3{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    justify-content: space-between;
+    padding-top: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+input::-moz-focus-inner{
+    display: none;
+}
+input::-moz-focus-inner{
+    display: none;
+}
+#i3,
+#i4{
+    position: absolute;
+    padding-top: 5px;
+    color: white;
+}
+i:hover{
+    display: none;
+}
+#i1,
+#i2{
+    padding: 0%;
+    position: absolute;
+}
+.firstflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image{
+    width: 50%;
+}
+@media screen and (max-width: 996px){
+    .firstflex{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .div1{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 785px){
+    .firstflex{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .div1{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .firstflex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .div1{
+        width: 100%;
+        height: 100%;
+    }
+}
